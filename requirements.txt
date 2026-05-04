@@ -1,2 +1,5 @@
-pandas
-scikit-learn
+Python
+Pandas
+Scikit-learn
+TF-IDF Vectorizer
+Multinomial Naive Bayes
