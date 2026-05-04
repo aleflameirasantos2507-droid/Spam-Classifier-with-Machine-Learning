@@ -13,7 +13,7 @@ X = df["message"]
 Y = df["label"]
 X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size=0.20, random_state=42)
 
-vectorizer = TfidfTransformer()
+vectorizer = TfidfVectorizer()
 X_train_vectorized = vectorizer.fit_transform(X_train)
 X_test_vectorized = vectorizer.transform(X_test)
 
